@@ -1,1 +1,0 @@
-This folder contains code used in lectures.
