@@ -27,8 +27,8 @@ You may find the following information useful for this lab:
  * [Roman](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab03_roman) (2 points)
  * [Times Tables](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab03_tables) (1 point)
  * [Magic](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab03_magic) (2 points)
- * Challenge - [Unmasked](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab03_magic) (3 points)
- * Challenge - [Draw Me a Tree](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab03_magic) (4 points)
+ * Challenge - [Unmasked](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab03_unmasked) (3 points)
+ * Challenge - [Draw Me a Tree](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab03_tree) (4 points)
 
 ## Submission Instructions
 
