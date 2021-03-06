@@ -20,7 +20,7 @@ Other group members (in other teams) are encouraged to ask questions and learn f
 
 ## C. Dictionaries
 
-Write a python program in a new file `vowel.py` that takes in a series of words on a single line in from STDIN, passes that input string into a function called `find_vowels`, which then return the frequency of how often each vowel appears. This object is then outputted (however you think works best). Assume all input is lowercase or uppercase letters, or spaces.
+Write a python program `vowel.py` that takes in a series of words on a single line in from STDIN, passes that input string into a function called `find_vowels`, which then return the frequency of how often each vowel appears. This object is then outputted (however you think works best). Assume all input is lowercase or uppercase letters, or spaces.
 
 If there are any uppercase letters passed in as part of the input, a `ValueError` should be thrown and caught in the main part of the code. The user should then be given a clear error.
 
@@ -28,10 +28,26 @@ If there are any uppercase letters passed in as part of the input, a `ValueError
 import sys
 
 def find_vowels(inp):
-    pass
+    vowels = {}
+    if not inp.islower():
+        raise ValueError
+    for character in 'aeiou':
+        vowels[character] = 0
+    words = inp.split(' ')
+    for word in words:
+        for character in word:
+            if character in 'aeiou':
+                vowels[character] += 1
+    return vowels
 
 if __name__ == '__main__':
-    pass
+    words = sys.stdin.readline()
+    try:
+        vowels = find_vowels(words)
+        for character in 'aeiou':
+            print(f"{character}: {vowels[character]}")
+    except ValueError:
+        print("Please only enter lowercase letters")
 ```
 
 ## D. Importing
@@ -63,6 +79,11 @@ from foo import *
 print(bar('hi')) # 4
 ```
 
+> * #1 This is fine, and is useful when using many functions from an import
+> * #2 This is like (#1), except useful when the name of the import is quite generic and could be confused with something else
+> * #3 This is often useful when you only need to import very particular functions from a file
+> * #4 This is not recommended, this imports a whole number of functions that could conflict with other names in the namespace
+
 Why does the following function not behave as intended?
 ```python
 import foo
@@ -70,4 +91,11 @@ import foo
 print(foo.getName())
 foo.editName('Hayden')
 print(foo.getName())
+```
+
+> Because to edit global variables inside of functions we need to add a global keyword
+```python
+def editName(string):
+    global name
+    name = string
 ```
