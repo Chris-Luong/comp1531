@@ -9,14 +9,14 @@ Your tutor will split you up into your project groups, and provide you with a do
 
 Compare these two pieces of code from a pythonic, style, and readability point of view and choose which one you prefer. When you choose one, you must justify your reasoning in the shared document your tutor gives you.
 
-## B. Requirements
+## B. Requirements (not yet covered, optional)
 
 Your tutor may break you up into groups to complete this activity.
 
 * Q. What are attributes of good requirements?
 * Q. How could we clean this up into well described requirements? "I want a burger with lots of pickles and mayo but I need to make sure that the mayo doesn't make the burger bun really wet. Oh, and it needs to be warm, like, made less than 5 minutes ago warm but not so hot that I burn myself. I'm also not a big fan of plastic containers so if it could be in a paper bag that would be good. Actually, make that a brown paper bag, I like the colour of that"
 
-## C. Functional and Non-functional
+## C. Functional and Non-functional (not yet covered, optional)
 
 * What is the difference between functional and non functional requirements? (See lecture slides)
 * Are the following requirements functional or non functional?
