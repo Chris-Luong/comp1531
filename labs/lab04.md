@@ -17,7 +17,7 @@
  * [Circle](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab04_circle) (1 point)
  * [Stack](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab04_stack) (1 point)
  * [Primes](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab04_primes) (2 points)
- * [Weather](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab04_weather) (3 points)
+ * [Weather](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab04_weather) (2 points)
  * [Interleavings](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab04_interleavings) (3 points)
  * [The Matrix](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab04_matrix) (3 points)
 
