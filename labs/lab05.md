@@ -24,7 +24,7 @@ Some of the exercises are challenging; these problems are worth 3-4 points. You 
  * [Unpickle](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab05_unpickle) (1 point)
  * [Process](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab05_process) (1 point)
  * [Simple](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab05_simple) (2 points)
- * [GPS Blackout](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab05_gps) (4 points)
+ * [GPS Blackout](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab05_blackout) (4 points)
 
 ## Optional exercises (no points)
  * [JWT](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab05_jwt) (0 points)
