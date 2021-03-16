@@ -13,14 +13,14 @@ Your tutor may provide you with a [hackmd.io](https://hackmd.io) file for everyo
 ## B. Writing a route
 
 1. Write a simple flask server [names.py](names.py) that does the following:
- * Has a route that can take a name and a date of birth (as a (unix timestamp)[https://www.epochconverter.com/])
+ * Has a route that can take a name and a date of birth (as a [unix timestamp](https://www.epochconverter.com/))
  * Has a route that will produce all names/ages of people who've been entered previously
 
 *Ensure pylint is run on your code.*
 
 ## C. Testing a server
 
-Write a flask server [key.py](key.py) that has a single route `/getimg?tag=img` where it loads the unsw homepage and counts how many times the HTML tag "tag" property appears in the page.
+Write a flask server [key.py](key.py) that has a single route `/getcount?tag=img` where it loads the unsw homepage and counts how many times the HTML tag "tag" property appears in the page.
 ```html
 <div id="a"></div>
 ```
