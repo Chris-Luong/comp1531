@@ -8,7 +8,21 @@
 
 Your tutor may provide you with a [hackmd.io](https://hackmd.io) file for everyone to edit together.
 
+> Examples include:
+>  * like/dislike
+>  * save button
+>  * subscribe button
+>  * viewing comments (notice how this loads after initial load? Implies API call)
+>  * posting comment
+
+> Ones that probably aren't routes include:
+>  * share
+>  * volume change
+>  * full screen
+
 2. Are there any considerations that need to be made when choosing how to breakup routes?
+
+> A balance in how much is captured in one route. For example, should the like/dislike be two routes or one? If they're functionally similar enough it can pay to have them in one route and just have a flag that differs them
 
 ## B. Writing a route
 
@@ -17,6 +31,8 @@ Your tutor may provide you with a [hackmd.io](https://hackmd.io) file for everyo
  * Has a route that will produce all names/ages of people who've been entered previously
 
 *Ensure pylint is run on your code.*
+
+> See [names.py](solutions/names.py).
 
 ## C. Testing a server
 
@@ -37,15 +53,30 @@ Write a series of HTTP level system tests [key_test.py](key_test.py) to ensure i
 
 *Ensure pylint is run on your code.*
 
+> See [key.py](solutions/key.py) and [key_test.py](solutions/key_test.py).
+
 ## D. Auth V Auth
 
 What are some real world examples of authentication and authorisation?
+> * Authentication: 
+>   * Showing ID at a bar
+>   * Showing student ID to unsw security
+> * Authorisation:
+>   * Using an SSH key
 
 ## E. Network questions
 
 1. What is the difference between the internet and the world wide web? What network protocols are used in each?
 
+> Internet refers to communicating between other computers not in a local network, whereas WWW refers to people connecting to each other in web browsers via the HTTP protocol (i.e. webpages)
+
 2. Breakdown the key components of an HTTP URL, such as http://unsw.com/calendar/view?term=t3&week=5#top
+
+> Protocol: HTTP<br />
+> Domain: unsw.com<br />
+> Path: calendar/view<br />
+> Query String: term=t3&week=5<br />
+> Anchor: #top<br />
 
 ## F. JSON & YAML
 
@@ -53,3 +84,5 @@ What are some real world examples of authentication and authorisation?
 * Convert the YAML file [data_2.yml](data_2.yml) to JSON in [data_2.json](data_2.json)
 
 Of course, you can do this with [simple online tools](https://www.json2yaml.com/). However, we encourage you to try and do this manually because during the exam if we test you on these items you need to be prepared!
+
+> See [data_1.yml](solutions/data_1.yml) and [data_2.json](solutions/data_2.json).
