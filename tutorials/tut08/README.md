@@ -2,7 +2,7 @@
 
 ## A. Creating your own routes
 
-Break into groups of 3. The only rule is that no one in the group of 3 can be in your project team. In your team, you will be given 5-10 minutes to analyse the current API specification by Sally/Bob, and to (as a team) propose one (or a couple) of new "route(s)" (i.e. url) to the interface to add some cool functionality to the product. Find something that you as a team get excited about. You'll be sharing your answer with the class, and will be expected to provide for each route:
+Break into groups of 3. The only rule is that no one in the group of 3 can be in your project team. In your team, you will be given 5-10 minutes to analyse the current API specification for your project, and to (as a team) propose one (or a couple) of new "route(s)" (i.e. url) to the interface to add some cool functionality to the product. Find something that you as a team get excited about. You'll be sharing your answer with the class, and will be expected to provide for each route:
   * A route (i.e. /this/url/name)
   * A CRUD method (e.g. GET)
   * Input parameters

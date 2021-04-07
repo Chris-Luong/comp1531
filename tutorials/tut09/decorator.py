@@ -1,15 +1,24 @@
 from isbn import isValid
 from socket import socket, AF_INET, SOCK_STREAM
+import requests
 
 def ISBNValidator(function):
+    """
+    Implement a decorator that validates the ISBN before calling any other functions that use the ISBN
+    """
     pass
 
 @ISBNValidator
 def sendToPublisher(isbn):
     """
-    Pretend to send ISBN to the publisher via the Internet by sending it to localhost.
-    Don't worry about any of the code below, just something cool you can do with Python, but please put your focus on the use of decorator here.
+    Pretend to send ISBN to the publisher via the Internet by sending it to localhost:8000 which is where http server is run on.
+    Don't worry about any of the socket code, this is just to show you something cool you can do with Python.
+    Please put your focus on the use of decorator here.
+    HTTP server is a python inbuilt library that you can run by doing `python3 -m http.server` but it only supports GET requests.
     """
+    # Send a GET request to the localhost
+    requests.get(f'http://127.0.0.1:8000?isbn={isbn}')
+    # Another way to send a request via socket
     new_socket = socket(AF_INET, SOCK_STREAM)
     new_socket.connect(('localhost', 8000))
     new_socket.send(isbn.encode())
@@ -27,6 +36,9 @@ if __name__ == "__main__":
     # Get the ISBN
     isbn = input('What is the ISBN? ')
 
-    # Call the functions that uses ISBN
-    sendToPublisher(isbn)
-    printBook(isbn)
+    # Call the functions that use ISBN
+    try:
+        sendToPublisher(isbn)
+        printBook(isbn)
+    except:
+        print(f'{isbn} is invalid.')

@@ -48,7 +48,7 @@ Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 
 Now in a different terminal run your code
 ```bash
-$ python3 -m decorator.py
+$ python3 decorator.py
 What is the ISBN? 938007834X
 Sent ISBN to the publisher!
 Printing book <Legend of Hayden>
@@ -57,11 +57,21 @@ ISBN: 938007834X
 
 You should be able to see some output like this in the other terminal
 ```bash
+::ffff:127.0.0.1 - - [19/Jan/2021 02:43:23] "GET /?isbn=938007834X HTTP/1.1" 200 -
 ::ffff:127.0.0.1 - - [19/Jan/2021 02:43:23] code 400, message Bad request syntax ('938007834X')
 ::ffff:127.0.0.1 - - [19/Jan/2021 02:43:23] "938007834X" 400 -
 ```
 
 Don't worry about the 400 error but you now can see the ISBN number is sent across from another terminal!
+
+If the input ISBN is not valid it will simply print the ISBN is invalid and neither of the functions should run
+```bash
+$ python3 decorator.py
+What is the ISBN? 2222222224
+2222222224 is invalid.
+```
+
+No output in the other terminal.
 
 ## C. Prime Factoriser
 
