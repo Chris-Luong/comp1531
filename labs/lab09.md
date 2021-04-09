@@ -15,7 +15,7 @@
 You should complete all of the standard exercises; these are worth 1-2 points.
 Some of the exercises are challenging; these problems are worth 3-4 points. You can receive partial marks by attempting these problems.
 
-**To receive full marks for this lab you need 7 points**.
+**To receive full marks for this lab you need 6 points**.
 
 ## Exercises
 
