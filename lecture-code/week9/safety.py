@@ -1,6 +1,6 @@
 from typing import Optional
 
-def count(needle: str, haystack: str) -> int:
+def count(needle, haystack):
     '''
     Returns the number of copies of integer needle in the list of integers haystack.
     '''
@@ -10,7 +10,7 @@ def count(needle: str, haystack: str) -> int:
             copies += 1
     return copies
  
-def search(needle: str, haystack: str) -> Optional[str]:
+def search(needle, haystack):
     '''
     Returns the needle if it's found in the haystack.
     '''
@@ -20,3 +20,4 @@ def search(needle: str, haystack: str) -> Optional[str]:
     return None
 
 print(count('h', 'haydhen'))
+print(search('z', 'haydhen'))
