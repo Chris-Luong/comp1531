@@ -18,13 +18,14 @@ Some of the exercises are challenging; these problems are worth 3-4 points. You 
 **To receive full marks for this lab you need 6 points**.
 
 ## Exercises
-
  * [Decorator](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab09_decorator) (1 point)
  * [Fibonacci](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab09_fibonacci) (1 point)
  * [User Stories](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab09_stories) (2 points)
- * [Git History](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab09_history) (1 point)
  * [Deploy](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab09_deploy) (2 points)
  * [Light Up: Solver](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab09_lightup) (4 points)
+
+## Removed Exercises (no longer needing completion)
+ * [Git History](https://cgi.cse.unsw.edu.au/~cs1531/redirect/?path=COMP1531/21T1/students/_/lab09_history) (0 point)
 
 ## Submission Instructions
 
