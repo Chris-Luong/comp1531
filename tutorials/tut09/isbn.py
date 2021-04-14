@@ -1,6 +1,6 @@
 def isValid(isbn):
     """
-    docstring
+    Determines whether the ISBN is valid or not
     """
     pass
 

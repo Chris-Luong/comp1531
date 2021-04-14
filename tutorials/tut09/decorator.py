@@ -14,7 +14,6 @@ def sendToPublisher(isbn):
     Pretend to send ISBN to the publisher via the Internet by sending it to localhost:8000 which is where http server is run on.
     Don't worry about any of the socket code, this is just to show you something cool you can do with Python.
     Please put your focus on the use of decorator here.
-    HTTP server is a python inbuilt library that you can run by doing `python3 -m http.server` but it only supports GET requests.
     """
     # Send a GET request to the localhost
     requests.get(f'http://127.0.0.1:8000?isbn={isbn}')

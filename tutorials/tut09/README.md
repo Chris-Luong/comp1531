@@ -38,13 +38,14 @@ What is the ISBN? 2222222224
 ```
 
 ### Part 2
-In [decorator.py](decorator.py) complete the decorator function `ISBNValidator` which calls the `isValid` function from the previous part, and check whether the input is a valid ISBN, if not raise an `Exception`.
+In [decorator.py](decorator.py) complete the decorator function `ISBNValidator` which calls the `isValid` function from the previous part, and check whether the input is a valid ISBN, if not raise a `ValueError`.
 
 After completing it, open a new terminal and run this command
 ```bash
 $ python3 -m http.server
 Serving HTTP on :: port 8000 (http://[::]:8000/) ...
 ```
+HTTP server is a python inbuilt library that you can run by doing `python3 -m http.server` but it only supports GET requests.
 
 Now in a different terminal run your code
 ```bash
