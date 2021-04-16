@@ -1,6 +1,6 @@
 # Lab 10
 
-### Due: Week 11, Monday 10:00 am AEST
+### Due: Week 10, Sunday 5:00 pm AEST
 
 ### Value: 2% of Course Mark 
 
