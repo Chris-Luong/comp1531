@@ -1,6 +1,6 @@
 # Lab 09
 
-### Due: Week 10, Monday (19th April) 10:00 am AEST
+### Due: Week 10, Tuesday (20th April) 1:00 pm AEST
 
 ### Value: 2% of Course Mark (6 points gives full marks)
 
