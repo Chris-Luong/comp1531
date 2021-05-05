@@ -1,0 +1,31 @@
+{
+    "users": [],
+    "channels": [],
+    "dms": [],
+    "messages": [],
+    "notifications": [],
+    "user_stats": [],
+    "dreams_stats": {
+        "channels_exist": [
+            {
+                "num_channels_exist": 0,
+                "time_stamp": "20-Apr-2021 (12:38)"
+            }
+        ],
+        "dms_exist": [
+            {
+                "num_dms_exist": 0,
+                "time_stamp": "20-Apr-2021 (12:38)"
+            }
+        ],
+        "messages_exist": [
+            {
+                "num_messages_exist": 0,
+                "time_stamp": "20-Apr-2021 (12:38)"
+            }
+        ],
+        "utilization_rate": 0.0
+    },
+    "standups": [],
+    "reset_codes": []
+}

@@ -1,0 +1,86 @@
+[Requirements] Elicitation
+Questions:
+1. What kinds of communication platforms do you use for projects or classwork requiring
+teamwork?
+2. What kind of projects or classwork are you completing?
+3. Do you have any problems with how these platforms are designed?
+4. Could communication on these platforms be easier?
+5. (Suggest possible fixes to these two) and if not any of these choices, how would you like to fix
+these problems?
+Tina Tran – 0416721941
+1. Zoom
+2. School classes
+3. It can be hard to join classrooms sometimes
+4. I’d rather use something like discord for classes or teamwork, (she’s in highschool and their
+standard is to use zoom for classes) where you can individually message people.
+5. Add a function where you can group chat with more than 1 person rather than individually
+messaging.
+Teresa Tran – 0405439568
+1. Discord
+2. Uni projects
+3. It’s hard to navigate through the application and there’s a lot of buttons that I don’t know
+how to use
+4. It’s pretty good already, there’s a chat and you can call.
+5. A manual for the basic functions would help out getting me a bit more into using discord as
+I’d occasionally asking friends on how to do certain things on discord.
+Kamaljit Kaur – 0431257209
+1. Microsoft Teams
+2. Online meetings with workmates
+3. It’s difficult to screen share for a group project as only one person can show their screen at
+one time
+4. Yes, once you mute someone, you cannot unmute them, which causes frequent confusion
+when trying to communicate.
+5. A feature that would allow you to unmute at will, regardless of whether you are the person
+that muted them
+[Requirements] Analysis & Specification - Use Cases
+User Acceptance Criteria:
+- Identified similar communication tool
+- Identified one or two problems
+- Described how they would like a fix to those particular problems
+Tina Tran –
+- Have the ability to make a group chat with her buddies
+- Have the ability to view who is in the group chat
+- Be able to add and remove people from the group chat
+- Know who the owner is of the group chat
+- Be able to send messages in the group chat
+- Be able to alert specific people in the group chat
+Tina uses Zoom to have her tutoring classes from home and the problem with this is she can’t do
+group work by talking to her friends through zoom as she can’t manually join breakout rooms herself.
+A possible solution is only letting select people in the classroom see your messages. That way, you can
+have discussions with your buddies without disrupting the class.
+Teresa Tran –
+- Have a guide in dot point form
+- Properly split and sorted that similar features should be grouped up
+- Summaries for each feature
+- A search function to look for specific keywords in the guide
+Teresa can’t navigate throughout discord completely and can only do the very basic functions in a
+server only. Some actions are still too complicated and require external assistance. A guide to using
+discord could help her on the app itself.
+Kamaljit –
+- The ability for multiple to share their screens at the same time
+- The ability for the channel owner to take control of screen sharing when needed
+- Prioritise the owner’s screen at times
+- Unmute and mute people at will
+- An alert if we have been muted by the owner
+- Display of the options available to mute people
+[Requirements] Validation
+Tina Tran –
+That’s exactly what I wanted, having those chats with your own friends to discuss work is better
+because I don’t want to chat with some people in my class
+Teresa Tran –
+YES, a guide would help out me a lot when trying to understand the features in discord since I am
+fairly new to it and hopefully in time, it’d help me to build my skills in online communication.
+Kamaljit –
+This feature would help me greatly as I often have meetings with the teams that I have to manage,
+and often I have to mute certain people because they have background noise when someone else is
+trying to talk. I also want to unmute them so when the person is finished talking they can contribute
+to the conversation once again.
+[Design] Interface Design
+Tina –
+Our dm.py covers this solution by making dms with multiple people separate from the channel.
+Teresa –
+This should be a GET HTTP endpoint by retrieving the guide/manual for the platform. You could also
+prioritise sections depending on the keywords that might’ve been input by the user
+Kamaljit –
+To share multiple screens, it’d be POST HTTP endpoints and to mute people and unmute, it’d be a
+PUT HTTP endpoint.
